@@ -11,7 +11,7 @@ function vowelsAndConsonants(s) {
         console.log(vowel[i])
     }
     var constant =  s.replace(/[aeiouAEIOU]/g, '').split("")
-    let chars = newS.split('').sort().join('');
+    // let chars = newS.split('').sort().join('');
     
    for(var i=0; i<constant.length; i++){
        console.log(constant[i])
