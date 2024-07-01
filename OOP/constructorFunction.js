@@ -6,6 +6,9 @@ function BankAccount(accountName, balance=0){
     this.deposit = function(amount){
         this.balance += amount
     }
+    this.whitdraw = function(amount){
+        this.balance -= amount
+    }
 }
 
 const rakeshAccount = new BankAccount("Rakesh", 36000)
@@ -13,6 +16,8 @@ const jhonAccount = new BankAccount("Jhon", 5000)
 
 rakeshAccount.deposit(5000)
 jhonAccount.deposit(1000)
+
+rakeshAccount.whitdraw(11000)
 
 console.log(rakeshAccount)
 console.log(jhonAccount)
