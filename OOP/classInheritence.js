@@ -23,5 +23,5 @@ class currentAccount extends BankAccount {
 }
 
 const rakeshAccount = new currentAccount("Rakesh", 50000)
-rakeshAccount.deposit(10000)
+
 console.log(rakeshAccount)
